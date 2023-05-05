@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genesys AI Labs | Under Construction</title>
+  <style>
+    /* CSS styling for logo */
+    .logo {
+      display: block;
+      margin: 50px auto 30px;
+      width: 200px;
+      height: 200px;
+      filter: drop-shadow(5px 5px 5px #888888);
+    }
+
+    /* CSS styling for page content */
+    .wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #FF9900;
+      text-align: center;
+      margin: 0;
+    }
+
+    p {
+      font-size: 24px;
+      color: #333;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .construction {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .construction img {
+      width: 400px;
+      height: 400px;
+      opacity: 0.5;
+      filter: blur(5px);
+    }
+
+    /* CSS styling for animation */
+    @keyframes slideIn {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0%);
+      }
+    }
+
+    #hidden-message {
+      font-size: 24px;
+      color: #FF9900;
+      animation: slideIn 1s forwards;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Insert logo image with alt text for accessibility -->
+    <!-- <a href='https://www.linkpicture.com/view.php?img=LPic64366223ca7fd815836185'><img src='https://www.linkpicture.com/q/Black-White-Minimalist-Business-Logo-2.svg' type='image'></a> -->
+    <img class="logo" src="https://www.linkpicture.com/q/Black-White-Minimalist-Business-Logo-2.svg" alt="Genesys AI Labs Logo">
+  </header>
+
+  <main>
+    <!-- Wrapper for page content -->
+    <div class="wrapper">
+      <!-- Content of the page goes here -->
+      <h1>Coming Soon!</h1>
+      <p>We're working hard to bring you the latest advancements in AI. Our website is currently under construction, but check back soon for updates!</p>
+      
+      <p id="hidden-message" style="display:none;">314, 5th Main, HRBR layout 2nd block, Kalyan Nagar Bangalore - 560043</p>
+
+
+      <!-- Hidden message -->
+      <p id="hidden-message" style="display:none;">Thanks for visiting Genesys AI Labs. We can't wait to share our latest projects with you!</p>
+    </div>
+  </main>
+  
+  <footer>
+    <!-- Footer content goes here -->
+    <p>&copy; 2023 Genesys AI Labs. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript code for animation -->
+  <script>
+    window.onload = function() {
+      document.getElementById("hidden-message").style.display = "block";
+    }
+  </script>
+</body>
+</html>
